@@ -15,13 +15,12 @@ Possible other areas might include:
 
 
 Data sources:
-- https://land.copernicus.eu/en/products/urban-atlas/urban-atlas-2021
+- Satellite data for tree density, terrain imperviousness and green areas for Berlin: https://land.copernicus.eu/en/products/urban-atlas/urban-atlas-2021
 https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness
 https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/tree-cover-density-2018-present-raster-100-m-europe-yearly
- (satellite data for tree density, terrain imperviousness and green areas)
-- https://opendata.dwd.de (hourly/daily weather data)
-- https://meteostat.net (hourly/daily weather data)
-- https://luftdaten.berlin.de/lqi (air quality Berlin)
-- https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Zensus2022/_inhalt.html (population data)
-- https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/Downloads-Sterbefaelle/statistischer-bericht-sterbefaelle-tage-wochen-monate-aktuell-5126109.html (for death rates per state/sex)
+- daily/hourly weather data: https://opendata.dwd.de and https://meteostat.net
+- air quality Berlin: https://luftdaten.berlin.de/lqi
+- population data Germany: https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Zensus2022/_inhalt.html
+- death rates per state/gender: https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/Downloads-Sterbefaelle/statistischer-bericht-sterbefaelle-tage-wochen-monate-aktuell-5126109.html
+- Water quality Berlin: https://wasserportal.berlin.de/stationen_start.php
 
