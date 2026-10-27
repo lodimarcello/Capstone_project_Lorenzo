@@ -1,1 +1,27 @@
 # Capstone_project_Lorenzo
+
+My project aims at measuring the impact of summer 2026 heatwave in the city of Berlin (possibly other European capitals) compared to previous years (up to 10 years in the past, time permitting).
+
+Ideas of what to analyse in order to measure the impact:
+- impact of heat on air and water quality
+- how different neighbourhoods were impacted (population density, city green vs concrete areas)
+- impact of heat on electricity demand
+- possible correlation of increased death rates vs higher temperatures
+- how building type affected the heating dispersion in the city (neighbourhoods with older buildings vs newer ones)
+
+Possible other areas might include:
+- extend analysis on other EU cities (London, Paris, Rome, Athens)
+- possible comparison between North/South Europe: did 2026 heatwave had more increased temperatures in north europe vs south europe?
+
+
+Data sources:
+- https://land.copernicus.eu/en/products/urban-atlas/urban-atlas-2021
+https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness
+https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/tree-cover-density-2018-present-raster-100-m-europe-yearly
+ (satellite data for tree density, terrain imperviousness and green areas)
+- https://opendata.dwd.de (hourly/daily weather data)
+- https://meteostat.net (hourly/daily weather data)
+- https://luftdaten.berlin.de/lqi (air quality Berlin)
+- https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Zensus2022/_inhalt.html (population data)
+- https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/Downloads-Sterbefaelle/statistischer-bericht-sterbefaelle-tage-wochen-monate-aktuell-5126109.html (for death rates per state/sex)
+
