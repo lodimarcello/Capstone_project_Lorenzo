@@ -3,11 +3,11 @@
 My project aims at measuring the impact of summer 2026 heatwave in the city of Berlin (possibly other European capitals) compared to 2025.
 
 Ideas of what to analyse in order to measure the impact:
-- impact of heat on air and water quality
-- how different neighbourhoods were impacted (population density, city green vs concrete areas)
-- impact of heat on electricity demand
-- possible correlation of increased death rates vs higher temperatures
-- how building type affected the heating dispersion in the city (neighbourhoods with older buildings vs newer ones)
+- impact of heat on air and water quality - did air/water quality decreased during hotter days?
+- how different neighbourhoods were impacted (population density, city green vs concrete areas) - 
+- impact of heat on electricity and water demand - was there an increase in electricity and water consumption during hotter days?
+- possible correlation of increased death rates vs higher temperatures - harder to assess, since causes of deaths don't always correlate to one specific reason only
+- how building type affected the heating dispersion in the city (neighbourhoods with older buildings vs newer ones) - secondary, did older buildings perform worse compared to newer ones in terms of heat dispersion
 
 Possible other areas might include:
 - extend analysis on other EU cities (London, Paris, Rome, Athens)
