@@ -1,6 +1,6 @@
 # Capstone_project_Lorenzo
 
-My project aims at measuring the impact of summer 2026 heatwave in the city of Berlin (possibly other European capitals) compared to 2025.
+My project aims at measuring the impact of summer 2026 heatwave in the city of Berlin compared to 2025.
 
 Ideas of what to analyse in order to measure the impact:
 - impact of heat on air and water quality - did air/water quality decreased during hotter days?
@@ -12,6 +12,7 @@ Ideas of what to analyse in order to measure the impact:
 Possible other areas might include:
 - extend analysis on other EU cities (London, Paris, Rome, Athens)
 - possible comparison between North/South Europe: did 2026 heatwave had more increased temperatures in north europe vs south europe?
+- extend analysis to years older than 2025
 
 
 Data sources:
