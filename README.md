@@ -1,6 +1,6 @@
 # Capstone_project_Lorenzo
 
-My project aims at measuring the impact of summer 2026 heatwave in the city of Berlin (possibly other European capitals) compared to previous years (up to 10 years in the past, time permitting).
+My project aims at measuring the impact of summer 2026 heatwave in the city of Berlin (possibly other European capitals) compared to 2025.
 
 Ideas of what to analyse in order to measure the impact:
 - impact of heat on air and water quality
@@ -22,5 +22,5 @@ https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-co
 - air quality Berlin: https://luftdaten.berlin.de/lqi
 - population data Germany: https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Zensus2022/_inhalt.html
 - death rates per state/gender: https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/Downloads-Sterbefaelle/statistischer-bericht-sterbefaelle-tage-wochen-monate-aktuell-5126109.html
-- Water quality Berlin: https://wasserportal.berlin.de/stationen_start.php
+- Water quality Berlin: https://wasserportal.berlin.de/stationen_start.php - https://wasserportal.berlin.de/recherche.php
 
