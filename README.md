@@ -34,6 +34,10 @@ When was Berlin hottest, and how did 2026 compare with 2025?
 2. The environmental response
 What patterns appeared in air quality and sampled bathing-water quality?
 
+2b. Resource demand (Secondary)
+Did electricity and water consumption increase during hotter periods?
+Consumption trends compared with temperature and heatwave periods.
+
 3. The urban context
 Which areas combine higher population density, less vegetation and potentially greater heat exposure?
 
