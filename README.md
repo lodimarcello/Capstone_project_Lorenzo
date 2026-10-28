@@ -25,7 +25,8 @@ https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-co
 - death rates per state/gender: https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/Downloads-Sterbefaelle/statistischer-bericht-sterbefaelle-tage-wochen-monate-aktuell-5126109.html
 - Water quality Berlin: https://wasserportal.berlin.de/stationen_start.php - https://wasserportal.berlin.de/recherche.php
 
-Main points of the analysis:
+
+### Main points of the analysis:
 
 1. The heat
 When was Berlin hottest, and how did 2026 compare with 2025?
