@@ -2,7 +2,7 @@
 
 ## My project aims at measuring the impact of summer 2026 heatwave in the city of Berlin compared to 2025.
 
-Ideas of what to analyse in order to measure the impact:
+### Ideas of what to analyse in order to measure the impact:
 - impact of heat on air and water quality - did air/water quality decreased during hotter days?
 - how different neighbourhoods were impacted (population density, city green vs concrete areas) - 
 - impact of heat on electricity and water demand - was there an increase in electricity and water consumption during hotter days?
