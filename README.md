@@ -9,13 +9,13 @@
 - possible correlation of increased death rates vs higher temperatures - harder to assess, since causes of deaths don't always correlate to one specific reason only
 - how building type affected the heating dispersion in the city (neighbourhoods with older buildings vs newer ones) - secondary, did older buildings perform worse compared to newer ones in terms of heat dispersion
 
-Possible other areas might include:
+### Possible other areas might include:
 - extend analysis on other EU cities (London, Paris, Rome, Athens)
 - possible comparison between North/South Europe: did 2026 heatwave had more increased temperatures in north europe vs south europe?
 - extend analysis to years older than 2025
 
 
-Data sources:
+### Data sources:
 - Satellite data for tree density, terrain imperviousness and green areas for Berlin: https://land.copernicus.eu/en/products/urban-atlas/urban-atlas-2021
 https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness
 https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/tree-cover-density-2018-present-raster-100-m-europe-yearly
