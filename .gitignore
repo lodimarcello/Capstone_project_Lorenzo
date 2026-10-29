@@ -2,6 +2,8 @@
 *.csv
 *.tif
 *.xlsx
+*.zip
+*.pdf
 
 
 # Byte-compiled / optimized / DLL files
