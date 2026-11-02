@@ -71,3 +71,19 @@ Water supply — optional: [Berlin Water Company key figures](https://www.bwb.de
 Electricity demand — optional: [Stromnetz Berlin disclosures](https://www.stromnetz.berlin/en/about-us/disclosure-requirements/enwg/); a request for more recent data has been sent. <BR>
 
 Data have been obtained through API calls and manual downloads. Some datasets required selecting specific time periods, geographic areas and variables. Data requested from external organisations are still subject to availability and delivery timelines.
+
+
+1) get all daily weather for all stations/bezirk, select only columns we care about and merge them together
+2) get all air quality daily data for all stations, merge them all in one dataset(check how close they are)
+3) get water quality data per bezirk, merge them all (check how close they are to the above ones, which one to select?)
+
+start with one year (2026), then I can add more years to get historical comparison
+
+
+- keep the selected 6 water stations to have a sample of bathing-water conditions across different parts of Berlin (spatial comparison of selected Berlin bathing lakes)
+- measuring stations don't represent neighbourhoods: neighbourhoods with lower green areas/higher population density can be described as areas with characteristics that may increase potential heat exposure or vulnerability.
+
+
+for tree coverage/concrete: start with simple idea, map trees, concrete areas over different periods
+
+go as far as 10 years
