@@ -5,6 +5,9 @@
 *.zip
 *.pdf
 *.txt
+*.fgb
+*.geojson
+*.tif
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

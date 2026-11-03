@@ -1,13 +1,11 @@
 # Capstone_project_Lorenzo (Title to confirm)
 
-![Alt Text](/Capstone_project_lorenzo/images/squid_meme.png)
 
 #### My project investigates how Berlin's summer heat conditions in 2026 compared with 2025, focusing on temperature patterns, environmental quality and neighbourhood characteristics that may influence heat exposure. The aim is to identify meaningful patterns and explore how the findings could support future urban heat adaptation.
 
 
 ### Who are the stakeholders?
 
-![Alt Text](/Capstone_project_lorenzo/images/simpson_gif.gif)
 
 The main stakeholders are Berlin's policymakers and public authorities responsible for urban planning, climate adaptation, environmental protection and public health.
 
@@ -15,7 +13,7 @@ The findings could help these stakeholders better understand environmental patte
 
 
 ### Main research question:
-![Alt Text](/Capstone_project_lorenzo/images/hot_meme.png)
+
 - How did Berlin's 2026 heatwave periods compare with 2025 in terms of temperature and environmental quality, and how might neighbourhood characteristics help explain differences in heat exposure?
 ### Supporting questions:
 - How did the frequency, intensity and duration of hot periods differ between 2025 and 2026?
@@ -29,7 +27,7 @@ The findings could help these stakeholders better understand environmental patte
 
 - Heat patterns: compare daily maximum and minimum temperatures, hot-day counts and heatwave duration in 2025 and 2026 specifically from May/June until September.
 - Air quality: analyse available pollutants such as ozone, PM2.5, PM10 and NO₂, comparing hotter and less-hot days while checking data coverage.
-- Bathing-water quality: examine bacterial, oxygen level, PH measurements and water temperature at the selected bathing sites, relating samples to recent temperature and rainfall.
+- Bathing-water quality: examine bacterial and water temperature at the selected bathing sites, relating samples to recent temperature and rainfall.
 - Urban context: compare tree cover, impervious surfaces and population density to identify areas that may be more vulnerable to heat.
 
 ### Secondary/optional extended points to analyse
@@ -40,7 +38,7 @@ The findings could help these stakeholders better understand environmental patte
 - Comparisons with other european cities or a longer historical period.
 
 ### Methodology
-![alt text](/Capstone_project_lorenzo/images/process_meme.png)
+
 - Data collection and validation: Collect weather, air-quality, bathing-water, land-cover and population data from official sources. Check completeness, consistency, time coverage and geographic coverage before analysis.
 - Data preparation: clean and standardise dates, units, station identifiers and geographic boundaries. Aggregate hourly weather and air-quality measurements to daily values where appropriate.
 - Comparative analysis: compare summer 2025 and 2026, and investigate differences between hotter and less-hot periods. Use appropriate averaging periods for each pollutant and account for missing measurements.
@@ -48,7 +46,7 @@ The findings could help these stakeholders better understand environmental patte
 - Visualisation and communication: use Python for data preparation, exploratory analysis and statistical comparisons, then Tableau or Streamlit to present the findings in an accessible, stakeholder-oriented dashboard.
 
 ### KPIs:
-![Alt Text](/Capstone_project_lorenzo/images/kpi_meme.png)
+
 - Number of hot days: how often high temperatures occurred.
 - Longest consecutive hot period: how persistent the heat was.
 - Air quality: mean pollutant concentration on hot vs. comparison days,	to check whether pollution levels differed with heat.
@@ -59,7 +57,6 @@ The findings could help these stakeholders better understand environmental patte
 - Heat and mortality - optional: compare mortality during defined heatwave periods with a suitable baseline, accounting where possible for seasonality, long-term trends and population differences.
 
 ### Data sources:
-![Alt Text](/Capstone_project_Lorenzo/images/data_meme.png)
 
 Weather: [DWD Open Data](https://opendata.dwd.de/) and [Meteostat](https://meteostat.net/en/) <BR>
 Air quality: [Berlin Air Quality Network](https://luftdaten.berlin.de/lqi) <BR>
@@ -86,4 +83,20 @@ start with one year (2026), then I can add more years to get historical comparis
 
 for tree coverage/concrete: start with simple idea, map trees, concrete areas over different periods
 
-go as far as 10 years
+go as far as 10 years, or up to the latest data available for one of the datasets (so far electricity consumption goes back to 2020)
+
+* Conceptual model (Project Logic: How do you aproach the research question?)
+- analyze temperature, air/water and electricity consumption  trends during years, specifically summer times
+- analyse urban fabric of the city, see if there are correlations between highly urban/industrial areas and hotter/more polluted days vs highly green and cooler/less polluted
+
+* Data dictionary
+- check
+
+* Notebook on data cleaning and transformation
+- messy but check 
+
+* Early visualizations (distributions, box plots, etc)
+- to do
+* Updated KPIs and refined metrics
+- to do
+* Challenges
