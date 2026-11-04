@@ -24,7 +24,8 @@ https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-co
 - population data Germany: https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Zensus2022/_inhalt.html
 - death rates per state/gender: https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/Downloads-Sterbefaelle/statistischer-bericht-sterbefaelle-tage-wochen-monate-aktuell-5126109.html
 - Water quality Berlin: https://wasserportal.berlin.de/stationen_start.php - https://wasserportal.berlin.de/recherche.php
-- Berlin LOR Bezirkregionen division: https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-raume-lor-01-01-2021-wfs-34c86848?utm_source=chatgpt.com
+- Berlin LOR Bezirkregionen division: https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-raume-lor-01-01-2021-wfs-34c86848?utm
+- Berlin population 2025 from the Berlin-Brandenburg Statistical Office: https://daten.berlin.de/datensaetze/einwohnerinnen-und-einwohner-in-berlin-in-lor-planungsraumen-am-31-12-2025?utm_source=chatgpt.com
 
 
 ### Main points of the analysis:
