@@ -38,8 +38,6 @@
 | TNK | Daily minimum of temperature at 2 m height | °C | NUMBER | 9990.0 |
 | TGK | Daily minimum of air temperature at 5 cm above ground | °C | NUMBER | 9990.0 |
 
-I will focus on the following variables: tavg (average daily temperature), tmin-tmax(min/max daily temperature), prcp (daily precipitation), wspd (avg wind speed), pressure (pres_meteostat taken at sea level and pres_dwd taken at station elevation)
-
 ### Water quality datasets
 
 | Key | Description | Unit / Format | Notes |
@@ -83,7 +81,7 @@ I will mostly focus on Nitrogen dioxide (no2), Ozone (o3), pm10 and pm 2.5. I wi
 Details on air quality index can be found here: https://luftdaten.berlin.de/lqi/info
 
 
-### energy consumption datasets
+### Energy consumption datasets
 
 This dataset contains total consumption in kWh for the city of Berlin every 15 minutes, data is available from 2020 until 2025.
 
@@ -97,63 +95,58 @@ This dataset contains total consumption in kWh for the city of Berlin every 15 m
 1 Jan (95 records):	Flagged as incomplete as there was one fewer record than expected
 31 Dec (1 record): Excluded from daily analysis, there is insufficient daily coverage (only 15 minutes)
 
+### LOR dataset
+Lebensweltlich orientierte Räume (life-world-oriented spaces). It is Berlin's official spatial classification system. I am currently using the Bezirksregionen (BZR) level, which shows the district regions of the city, 143 in total
+
+| Column | Data type | Description |
+|---|---|---|
+| `bzr_id` | Int64 | Unique identifier of the Bezirksregion (BZR), the middle level of Berlin's LOR spatial hierarchy. |
+| `bzr_name` | String | Name of the Bezirksregion. |
+| `pgr_id` | Int64 | Identifier of the Prognoseraum (PGR), the larger planning area containing the Bezirksregion. |
+| `pgr_name` | String | Name of the Prognoseraum. |
+| `bez` | String | Name or identifier of the Berlin administrative district (Bezirk) to which the Bezirksregion belongs. |
+| `finhalt` | Float64 | Area-related value (`Flächeninhalt`) for the spatial unit. The unit (e.g. square metres or hectares) should be confirmed in the source metadata. |
+| `stand` | String | Reference date or status information associated with the spatial dataset. The exact meaning should be confirmed from the source metadata. |
+
 
 ### Satellite/map data
 
 LOR system Berlin explanation: https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/
 
-#### Urban Atlas green areas (year 2021) 
-showing land cover and land use for the city of berlin
+#### Urban Atlas green areas
+Showing land cover and land use for the city of berlin
 
-| Parameter | Description |
-|---|---|
-| bzr_id |  Unique identifier of the Berlin Bezirksregion (neighbourhood). |
-| bzr_name | Name of the Berlin Bezirksregion. |
-| bez | Identifier of the Berlin district (Bezirk). |
-| urban_fabric | Continuous, discontinuous dense, medium, low and very low density urban fabric |
-| green_natural | Forests, green urban areas (all access types), herbaceous vegetation associations, pastures |
-| industrial_commercial | Industrial, commercial, public, military and private units |
-| transport_infrastructure | Airports, fast transit roads, other roads, railways, port areas |
-| water_wetlands | Water/wetland areas |
-| Arable land (annual crops) | Arable land |
-| Complex and mixed cultivation patterns | Land with small/diverse agricultural patterns |
-| Construction sites | Construction sites |
-| Isolated structures | Scattered/low-density buildings |
-| Land without current use | Unused land |
-| Mineral extraction and dump sites | Mines and dumps |
-| Open spaces with little or no vegetation (beaches, dunes, bare rocks, glaciers) | Open land with little or no vegetation |
-| Sports and leisure facilities | Sports/leisure facilities |
-
-all values in this dataset are strings
+| Column | Data type | Description |
+|---|---|---|
+| `country` | String | Two-letter country code identifying the country of the Functional Urban Area (e.g. DE). |
+| `fua_name` | String | Name of the Functional Urban Area. |
+| `fua_code` | String | Identifier of the Functional Urban Area. |
+| `code_2021` | String | Official Urban Atlas classification code assigned to each mapped polygon for the 2021 reference year. |
+| `class_2021` | String | Descriptive name of the land-cover or land-use category corresponding to `code_2021`. |
+| `prod_date` | String | Production date of the dataset, expressed as year and month. |
+| `identifier` | String | Unique identifier assigned to each mapped polygon feature. |
+| `perimeter` | Float64 | Perimeter of the polygon, expressed in metres. |
+| `area` | Float64 | Area of the polygon, expressed in square metres. |
+| `comment` | Object | Additional information or remarks associated with the mapped feature, including possible exceptions to the Minimum Mapping Unit. |
+| `geometry` | Geometry | Polygon geometry representing the spatial boundaries of the mapped land-cover or land-use feature. |
 
 
-#### Terrain imperviousness (year 2024) 
+#### Terrain imperviousness
 showing the degree of soil sealing (artificial surface coverage) across Berlin, mapping out exactly where the natural ground has been paved over by human infrastructure
 
-| Column | Description |
-|---|---|
-| bzr_id | Unique identifier of the Berlin Bezirksregion (neighbourhood). |
-| bzr_name | Name of the Berlin Bezirksregion. |
-| bez | Identifier of the Berlin district (Bezirk). |
-| imperviousness_mean | Mean imperviousness raster value across all pixels within the neighbourhood. |
-| imperviousness_median | Median imperviousness raster value across all pixels within the neighbourhood. |
-| impervious_pixels_pct | Percentage of included raster pixels with an imperviousness value greater than zero. |
-| pixel_count | Number of raster pixels included in the neighbourhood calculation. |
+| Attribute | Data type | Description |
+|---|---|---|
+| `pixel_value` | UInt8 | Imperviousness density value for each 10 × 10 m pixel, expressed as a percentage. Values range from 0 (non-impervious) to 100 (100% impervious). |
+| `geometry` | Raster grid | Spatial location and extent of each raster pixel, referenced to EPSG:3035. |
 
 
-#### Tree cover density (year 2024)
+#### Tree cover density
 Represents the Tree Cover Density by Berlin neighbourhood
 
-
-| Column | Description |
-|---|---|
-| bzr_id | Unique identifier of the Berlin Bezirksregion (neighbourhood). |
-| bzr_name | Name of the Berlin Bezirksregion. |
-| bez | Identifier of the Berlin district (Bezirk). |
-| tree_cover_mean | Mean tree-cover density raster value across all included pixels within the neighbourhood, expressed as a percentage. |
-| tree_cover_median | Median tree-cover density raster value across all included pixels within the neighbourhood, expressed as a percentage. |
-| tree_cover_pixels_pct | Percentage of included raster pixels with a value greater than zero. |
-| pixel_count | Number of raster pixels included in the neighbourhood calculation. |
+| Attribute | Data type | Description |
+|---|---|---|
+| `pixel_value` | UInt8 | Tree Cover Density value for each 10 × 10 m pixel, representing the percentage of ground area covered by the vertical projection of tree canopy. Values range from 0 to 100. |
+| `geometry` | Raster grid | Spatial location and extent of each raster pixel, referenced to EPSG:3035. |
 
 ### Berlin Population (year 2025)
 

@@ -74,9 +74,13 @@ The project is structured around four points:
 
 ## Conceptual model
 
-- Measure the heat: Compare summers from 20xx (need to define) until 2026 using temperature, hot-day frequency and heat duration (pressure, wind and rain could also be metric to check).
+How summer heat conditions in Berlin have evolved over time, how they relate to environmental conditions and resource consumption, and how urban characteristics may influence potential population exposure.
+
+- Measure the heat: Compare summers from 20xx (need to define according to the historical data I will be able to find) until 2026 using temperature, hot-day frequency and heat duration (pressure, wind and rain could also be metric to check).
 
 - Explore environmental conditions: Analyse air-quality measurements during hot vs non-hot days and examine bathing-water quality across selected lakes.
+
+- Analyse historical water and electricity consumption trends: check how they changed during hot vs non hot days.
 
 - Assess urban characteristics: Compare Berlin neighbourhoods using tree cover, imperviousness, green land cover and population density.
 
@@ -117,7 +121,7 @@ The project is structured around four points:
 - Consumption peaks - compare consumption during hot/non hot days
 
 ### Progresses so far:
-- Cata dictionary (mostly complete)
+- Data dictionary (mostly complete)
 - Most data for 2025/2026 cleaned/merged/ordered and ready for analysis
 - Better defined scope of analysis/objectives
 - Few visualizations created with spatial data
@@ -144,3 +148,7 @@ The project is structured around four points:
 
 ### Population density vs soil sealing comparison
 ![alt text](image-4.png)
+
+### Green areas with Berlin neighbourhoods
+
+![alt text](image-5.png)
