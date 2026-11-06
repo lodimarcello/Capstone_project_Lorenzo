@@ -58,7 +58,10 @@
 | water_temperature | Water temperature | °C | Temperature in degrees Celsius |
 
 KBE means Koloniebildende Einheiten — equivalent to CFU (colony-forming units). It is a count of viable bacteria expressed per 100 ml.
+Sampling dates on the datasets are irregular, taken approximately every 2-3 weeks, from May until September
 More info can be found below:
+
+Info regarding bathing waters classification criteria: https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/eu-einstufung/
 
 https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badegewaesserueberwachung/ <br>
 https://wasserportal01.stadt-berlin.de/erlaeuterungen.php
