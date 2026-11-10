@@ -79,7 +79,7 @@ https://wasserportal01.stadt-berlin.de/erlaeuterungen.php
 | station_name | name of the station | str | #engineered
 | station_type | type of station | str | #engineered
 
-I will mostly focus on Nitrogen dioxide (no2), Ozone (o3), pm10 and pm 2.5. I will also check Carbon Monoxide (CO) if enough values are present.
+Pollutant concentrations  are expressed in µg/m³ (micrograms per cubic metre). I will mostly focus on Nitrogen dioxide (no2), Ozone (o3), pm10 and pm 2.5.
 
 Details on air quality index can be found here: https://luftdaten.berlin.de/lqi/info
 
