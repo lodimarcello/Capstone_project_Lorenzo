@@ -115,14 +115,14 @@ How summer heat conditions in Berlin have evolved over time, how they relate to 
 - Imperviousness - Mean imperviousness (%)
 - Green/natural land cover - Share of selected land-cover classes (%)
 
-#### water/electricity consumption trends
+#### (secondary, if I find data/time) water/electricity consumption trends
 
 - Consumption average -average consumption throughout the years (20xx to 2026)
 - Consumption peaks - compare consumption during hot/non hot days
 
 ### Progresses so far:
 - Data dictionary (mostly complete)
-- Most data for 2025/2026 cleaned/merged/ordered and ready for analysis
+- Most data for 2025/2026 cleaned/merged/ordered and ready for analysis 
 - Better defined scope of analysis/objectives
 - Few visualizations created with spatial data
 
